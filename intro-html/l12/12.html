@@ -1,0 +1,137 @@
+<!-- 12e -->
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+        <style>
+            body {
+                font-family: Arial;
+                background-color: rgb(240, 240, 240);
+            }
+            .menu {
+                background-color: white;
+
+                max-width: 600px;
+                padding: 12px;
+                border: solid;
+                border-radius: 8px;
+                border-width: 1px;
+                border-color: rgb(218, 218, 218);
+            }
+
+            .bar {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                border-radius: 8px;
+
+                padding-left: 12px;
+                padding-right: 12px;
+                margin-bottom: 2px;
+
+                max-width: 600px;
+                transition: 250ms ease;
+            }
+
+            .bar:hover {
+                box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+                translate: 8px;
+            }
+            
+            .bar:active{
+                translate: 4px;
+            }
+            
+            .sticker-text {
+                background-color: rgb(41, 127, 232);
+                color: white;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 20px;
+                display: flex;
+                flex-direction: row;
+
+                border-radius: 12px;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .header {
+                background-color: rgb(120, 83, 179);
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .header-left {
+                margin-left: 25px;
+                color: white;
+                font-weight: bold;
+            }
+            
+            .header-middle {
+                margin-left: 50px;
+                margin-right: 50px;
+                flex: 1;
+            }
+
+            .header-right{
+                margin-right: 12px;
+            }
+            .search-bar {
+                border-radius: 40px;
+                border:none;
+                height: 30px;
+                padding-left: 20px;
+                max-width: 500px;
+                width: 100%
+            }
+
+            button {
+                background-color: rgb(120, 83, 179);
+                padding: 10px;
+                border: solid;
+                border-width: 1px;
+                border-color: white;
+                border-radius: 2px;
+                color: white;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="header-left">
+                <p>Home</p>
+            </div>
+            <div class="header-middle">
+                <input class="search-bar" type="text" placeholder="Seacrh"> 
+            </div>
+            <div class="header-right">
+                <button>Download</button>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="bar">
+                <p>Home</p>
+                <p class="sticker-text">14</p>
+            </div>
+            <div class="bar">
+                <p>Notificaitions</p>
+                <p class="sticker-text">3</p>
+            </div>
+            <div class="bar">
+                <p>Messages</p>
+                <p class="sticker-text">5</p>
+            </div>
+        </div>
+    </body>
+</html>

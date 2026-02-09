@@ -1,0 +1,84 @@
+
+
+
+button{
+    cursor:pointer;
+    margin-left: 10px;
+
+    transition: 250ms;
+}
+
+
+.my_btn_1 {
+    background-color: rgb(192, 11, 11);
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+}
+
+.my_btn_1:hover {
+    background-color: rgb(221, 18, 18);
+}
+
+.my_btn_1:active {
+    opacity: 0.7;
+}
+
+
+.my_btn_2 {
+    background-color: rgb(255, 255, 255);
+    border:solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: rgb(20, 141, 233);
+}
+
+.my_btn_2:hover {
+    background-color: rgb(20, 141, 233);
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 2px;
+    margin-right: -8px;
+}
+.my_btn_2:active {
+    opacity: 0.7;
+}
+.my_btn_3 {
+    background-color: rgb(10, 148, 240);
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.my_btn_3:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 34px;
+
+    margin-top: -4px;
+}
+
+.my_btn_3 span {
+    display: inline-block;
+    transition: 250ms ease;
+}
+
+.my_btn_3:active {
+    background-color: rgb(10, 79, 240);
+}
+.my_btn_3 span:active {
+    transform: translateY(10px);
+}
